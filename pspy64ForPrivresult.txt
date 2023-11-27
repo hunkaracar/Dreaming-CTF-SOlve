@@ -1,0 +1,11 @@
+2023/11/24 15:48:01 CMD: UID=0     PID=40025  | /usr/sbin/CRON -f 
+2023/11/24 15:48:02 CMD: UID=1002  PID=40026  | /usr/sbin/CRON -f 
+2023/11/24 15:48:02 CMD: UID=1002  PID=40027  | /bin/sh -c /usr/bin/python3.8 /home/morpheus/restore.py 
+2023/11/24 15:48:19 CMD: UID=0     PID=40029  | 
+2023/11/24 15:49:01 CMD: UID=0     PID=40030  | /usr/sbin/CRON -f 
+2023/11/24 15:49:01 CMD: UID=1002  PID=40031  | 
+2023/11/24 15:49:01 CMD: UID=1002  PID=40032  | /usr/bin/python3.8 /home/morpheus/restore.py 
+
+2023/11/24 15:50:01 CMD: UID=0     PID=40033  | /usr/sbin/CRON -f 
+2023/11/24 15:50:01 CMD: UID=1002  PID=40034  | 
+2023/11/24 15:50:01 CMD: UID=1002  PID=40035  | /bin/sh -c /usr/bin/python3.8 /home/morpheus/restore.py 

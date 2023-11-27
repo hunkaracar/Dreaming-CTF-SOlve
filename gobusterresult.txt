@@ -1,0 +1,25 @@
+gobuster dir -u http://10.10.61.200/ -w /usr/share/wordlists/dirb/common.txt 
+===============================================================
+Gobuster v3.6
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.61.200/
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirb/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.6
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+/.hta                 (Status: 403) [Size: 277]
+/.htpasswd            (Status: 403) [Size: 277]
+/.htaccess            (Status: 403) [Size: 277]
+/app                  (Status: 301) [Size: 310] [--> http://10.10.61.200/app/]
+/index.html           (Status: 200) [Size: 10918]
+/server-status        (Status: 403) [Size: 277]
+Progress: 4614 / 4615 (99.98%)
+===============================================================
+Finished
+===============================================================
